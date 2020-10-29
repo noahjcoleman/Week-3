@@ -1,0 +1,72 @@
+html, head, body, div, h1, h2, h3, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    padding: none;
+    margin: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 249, 233);
+}
+div {
+    display: block;
+}
+ol {
+    width: 100%;
+    display: inline;
+    float: right;
+    background: rgb(248, 177, 45);
+    margin-top: 0;
+    padding: 10px;
+}
+li {
+    display: inline;
+    list-style-type: none;
+    color: white;
+    border: none;
+    margin: 0 10px;
+    float: left;
+    font-size: 16px;
+}
+li span {
+    padding-left: 50px;;
+}
+li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.contentboxes {
+    width: 750px;
+    margin: 0 auto;
+}
+.box {
+    display: inline-block;
+    width: 150px;
+    height: 375px;
+    padding: 10px;
+    border: solid  rgb(248, 177, 45) 2px;
+    margin: 15px 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.box p {
+    margin-left: 7%;
+}
+h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+p {
+    font-size: 10px;
+}
+.moreinfo {
+    background-color:  rgb(248, 177, 45);
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 40px;
+    border-radius: 7px;
+}
